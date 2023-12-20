@@ -10,7 +10,6 @@ def ConexaoBanco():
         print(ex)
     return con
 
-# Criar Tabela
 vsql = """CREATE TABLE IF NOT EXISTS dados (
             T_IDENTIFICACAO INTEGER PRIMARY KEY AUTOINCREMENT,
             T_NOME TEXT(30),
